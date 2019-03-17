@@ -10,6 +10,7 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "laravel-mix": "^4.0.14",
+    "postcss-nested": "^4.1.2",
     "tailwindcss": "https://github.com/tailwindcss/tailwindcss.git#next"
   }
 }
