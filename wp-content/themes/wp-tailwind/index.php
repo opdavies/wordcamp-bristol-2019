@@ -42,10 +42,10 @@ if ( have_posts() ) : ?>
     </footer>
 
   <?php
-    endwhile;
-  else :
-    _e( 'Sorry, no posts were found.', 'textdomain' );
-  endif;
+  endwhile;
+else :
+  _e( 'Sorry, no posts were found.', 'textdomain' );
+endif;
 ?>
 
 <?php
