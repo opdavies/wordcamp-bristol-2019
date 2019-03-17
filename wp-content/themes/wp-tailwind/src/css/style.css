@@ -1,0 +1,13 @@
+@tailwind base;
+
+a {
+    @apply text-grey-darker no-underline
+}
+a:hover,
+a:focus {
+  @apply text-blue-dark underline
+}
+
+@tailwind components;
+
+@tailwind utilities;
