@@ -7,7 +7,7 @@ if ( have_posts() ) : ?>
   <?php
   while ( have_posts() ) : the_post(); ?>
 
-    <h2 class="text-5xl font-bold mt-6 mb-8">
+    <h2 class="text-4xl md:text-5xl font-bold mt-6 mb-8">
       <a class="text-black hover:text-grey-darkest hover:no-underline" href="<?php print get_permalink() ?>">
         <?php the_title(); ?>
       </a>
