@@ -13,7 +13,7 @@ if ( have_posts() ) : ?>
       </a>
     </h2>
 
-    <div class="max-w-xl">
+    <div class="md:max-w-xl">
       <div class="content">
         <?php the_content(); ?>
       </div>
