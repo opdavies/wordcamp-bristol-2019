@@ -29,6 +29,10 @@ a:focus {
     @apply mt-6
   }
 
+  ul {
+    @apply list-disc ml-6
+  }
+
   li + li {
     @apply mt-0
   }
