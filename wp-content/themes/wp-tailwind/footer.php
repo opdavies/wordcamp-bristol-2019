@@ -1,5 +1,5 @@
       <footer class="pt-24 pb-16">
-        <p class="text-grey-darker">
+        <p class="text-gray-600">
           <?php bloginfo('slogan'); ?>,
 
           <a href="<?php echo esc_url(__('https://wordpress.org/', 'twentynineteen')); ?>">

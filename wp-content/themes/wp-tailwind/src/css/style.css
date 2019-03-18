@@ -1,12 +1,12 @@
 @tailwind base;
 
 a {
-  @apply text-grey-darker no-underline
+  @apply text-gray-600 no-underline
 }
 
 a:hover,
 a:focus {
-  @apply text-blue-dark underline
+  @apply text-blue-700
 }
 
 @tailwind components;
@@ -22,10 +22,10 @@ a:focus {
   }
 
   a {
-    @apply text-black font-bold pb-px border-b-2;
+    @apply text-blue-700 underline;
 
     &:hover {
-      @apply border-transparent no-underline
+      @apply text-blue-800 no-underline
     }
   }
 
