@@ -11,4 +11,24 @@ a:focus {
 
 @tailwind components;
 
+.content {
+  @apply font-serif text-xl leading-loose;
+
+  h2 {
+    @apply text-2xl font-bold mt-8 -mb-5
+  }
+
+  a {
+    @apply text-black font-bold
+  }
+
+  * + * {
+    @apply mt-6
+  }
+
+  li + li {
+    @apply mt-0
+  }
+}
+
 @tailwind utilities;

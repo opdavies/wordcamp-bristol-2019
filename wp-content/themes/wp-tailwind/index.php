@@ -13,8 +13,10 @@ if ( have_posts() ) : ?>
       </a>
     </h2>
 
-    <div class="max-w-xl font-serif text-xl leading-loose">
-      <?php the_content(); ?>
+    <div class="max-w-xl">
+      <div class="content">
+        <?php the_content(); ?>
+      </div>
     </div>
 
     <footer class="text-grey-darker my-10">
