@@ -22,7 +22,11 @@ a:focus {
   }
 
   a {
-    @apply text-black font-bold
+    @apply text-black font-bold pb-px border-b-2;
+
+    &:hover {
+      @apply border-transparent no-underline
+    }
   }
 
   * + * {
