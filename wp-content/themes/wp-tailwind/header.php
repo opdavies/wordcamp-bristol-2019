@@ -11,7 +11,7 @@
         <p class="text-2xl">
           <?php bloginfo('slogan'); ?>
 
-          <span class="font-serif font-thin text-gray-600">
+          <span class="font-serif font-thin text-gray-700">
             &mdash; <?php bloginfo('description'); ?>
           </span>
         </p>
