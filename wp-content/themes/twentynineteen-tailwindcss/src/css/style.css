@@ -16,6 +16,13 @@ a:focus {
 
 @tailwind components;
 
+h2 {
+  &:before {
+    content: '';
+    @apply w-12 block border-t-2 border-gray-600 mb-6
+  }
+}
+
 .content {
   @apply font-serif text-lg leading-loose;
   @screen md {
