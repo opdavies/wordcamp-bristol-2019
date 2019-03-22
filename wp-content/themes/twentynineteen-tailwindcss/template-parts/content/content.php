@@ -53,7 +53,7 @@
     ?>
   </div><!-- .entry-content -->
 
-  <footer class="entry-footer">
+  <footer class="flex flex-wrap">
     <?php twentynineteen_entry_footer(); ?>
   </footer><!-- .entry-footer -->
 </article><!-- #post-${ID} -->
