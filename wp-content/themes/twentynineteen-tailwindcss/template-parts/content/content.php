@@ -53,7 +53,7 @@
     ?>
   </div><!-- .entry-content -->
 
-  <footer class="flex flex-wrap">
+  <footer class="mt-10 flex flex-wrap">
     <?php twentynineteen_entry_footer(); ?>
   </footer><!-- .entry-footer -->
 </article><!-- #post-${ID} -->
