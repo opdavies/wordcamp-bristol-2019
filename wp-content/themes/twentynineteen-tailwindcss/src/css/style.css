@@ -35,6 +35,10 @@ h2 {
   }
 }
 
+.screen-reader-text {
+  @apply absolute opacity-0 pointer-events-none
+}
+
 .content {
   @apply font-serif text-lg leading-loose;
   @screen md {
