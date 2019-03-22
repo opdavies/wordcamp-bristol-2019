@@ -23,6 +23,18 @@ h2 {
   }
 }
 
+.byline,
+.posted-on,
+.cat-links,
+.comments-link,
+.edit-link {
+  @apply flex items-center mr-3 mb-2;
+
+  svg {
+    @apply mr-2 fill-current text-gray-600
+  }
+}
+
 .content {
   @apply font-serif text-lg leading-loose;
   @screen md {
