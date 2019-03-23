@@ -13,3 +13,7 @@
     @apply text-gray-800 no-underline
   }
 }
+
+.entry-footer {
+  @apply flex flex-wrap mt-10
+}
