@@ -27,7 +27,7 @@
 
   <?php twentynineteen_post_thumbnail(); ?>
 
-  <div class="entry-content">
+  <div class="font-serif text-lg">
     <?php
     the_content(
       sprintf(
