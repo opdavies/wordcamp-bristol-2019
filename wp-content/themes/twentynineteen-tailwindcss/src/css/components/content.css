@@ -1,4 +1,4 @@
-.content {
+.entry-content {
   @apply font-serif text-lg leading-loose;
 
   @screen md {
@@ -19,6 +19,10 @@
 
   * + * {
     @apply mt-6
+  }
+
+  p {
+    @apply font-serif
   }
 
   ul {
