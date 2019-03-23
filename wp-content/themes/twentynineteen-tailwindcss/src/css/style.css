@@ -39,37 +39,7 @@ h2 {
   @apply absolute opacity-0 pointer-events-none
 }
 
+@import 'components/content.css';
 @import 'components/post.css';
-
-.content {
-  @apply font-serif text-lg leading-loose;
-  @screen md {
-    @apply text-xl
-  }
-
-  h2 {
-    @apply text-2xl font-bold mt-8 -mb-5
-  }
-
-  a {
-    @apply text-blue-700 underline;
-
-    &:hover {
-      @apply text-blue-800 no-underline
-    }
-  }
-
-  * + * {
-    @apply mt-6
-  }
-
-  ul {
-    @apply list-disc ml-6
-  }
-
-  li + li {
-    @apply mt-0
-  }
-}
 
 @tailwind utilities;
