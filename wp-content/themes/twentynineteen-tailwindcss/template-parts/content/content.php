@@ -18,9 +18,9 @@
       printf( '<span class="sticky-post">%s</span>', _x( 'Featured', 'post', 'twentynineteen' ) );
     }
     if ( is_singular() ) :
-      the_title( '<h1 class="text-4xl md:text-5xl font-bold mt-6 mb-8">', '</h1>' );
+      the_title( '<h1 class="entry-title">', '</h1>' );
     else :
-      the_title( sprintf( '<h2 class="text-4xl md:text-5xl font-bold mt-6 mb-8"><a class="text-black hover:text-gray-800 hover:no-underline" href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+      the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
     endif;
     ?>
   </header><!-- .entry-header -->

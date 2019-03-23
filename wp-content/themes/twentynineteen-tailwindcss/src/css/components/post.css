@@ -1,0 +1,15 @@
+.entry-title {
+  @apply text-black text-4xl font-bold mt-6 mb-8;
+
+  @screen md {
+    @apply text-5xl
+  }
+}
+
+.entry-title a {
+  @apply text-inherit;
+
+  &:hover {
+    @apply text-gray-800 no-underline
+  }
+}
