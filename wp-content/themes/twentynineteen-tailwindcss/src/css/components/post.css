@@ -17,3 +17,11 @@
 .entry-footer {
   @apply flex flex-wrap mt-10
 }
+
+.entry-footer > span {
+  @apply flex items-center mr-4 mb-2;
+
+  svg {
+    @apply mr-2 fill-current text-gray-600
+  }
+}
