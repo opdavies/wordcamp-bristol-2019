@@ -14,11 +14,17 @@
   }
 }
 
+.entry-header,
+.entry-meta,
 .entry-footer {
-  @apply flex flex-wrap mt-10
+  @apply flex flex-wrap w-full
 }
 
-.entry-footer > span {
+.byline,
+.posted-on,
+.cat-links,
+.comments-link,
+.edit-link {
   @apply flex items-center mr-4 mb-2;
 
   svg {
