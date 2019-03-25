@@ -1,3 +1,5 @@
+    <?php get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
+
       <footer class="pt-24 pb-16">
         <p class="text-gray-600">
           <?php bloginfo('slogan'); ?>,
