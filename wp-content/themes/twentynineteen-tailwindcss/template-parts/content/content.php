@@ -53,7 +53,7 @@
     ?>
   </div><!-- .entry-content -->
 
-  <footer class="entry-footer">
+  <footer class="entry-footer mt-10">
     <?php twentynineteen_entry_footer(); ?>
   </footer><!-- .entry-footer -->
 </article><!-- #post-${ID} -->
