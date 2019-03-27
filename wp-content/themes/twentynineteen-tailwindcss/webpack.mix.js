@@ -9,7 +9,7 @@ mix.browserSync({
   proxy: 'wordcamp2019.docksal',
   notify: false,
   files: [
-    '*.php',
+    '**/*.php',
     'src/**/*.css'
   ],
 })
