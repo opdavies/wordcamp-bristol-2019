@@ -13,7 +13,7 @@ if ( is_active_sidebar( 'tw-sidebar' ) ) : ?>
 		<?php
 			if (is_active_sidebar('tw-sidebar')) {
 				?>
-					<div class="flex flex-wrap -mx-6">
+					<div class="widget flex flex-wrap -mx-6">
 						<?php dynamic_sidebar('tw-sidebar'); ?>
 					</div>
 				<?php
