@@ -1,0 +1,20 @@
+input[type=search] {
+  @apply border p-2;
+
+  &:focus {
+    @apply outline-none bg-gray-300
+  }
+
+  &::placeholder {
+    @apply text-black
+  }
+}
+
+input[type=submit] {
+  @apply bg-blue-600 py-2 px-4 rounded text-white block mt-2 text-sm font-bold;
+
+  &:hover,
+  &:focus {
+    @apply bg-blue-700
+  }
+}

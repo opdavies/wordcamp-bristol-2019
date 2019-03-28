@@ -26,6 +26,7 @@ h2:before {
 }
 
 @import 'components/content.css';
+@import 'components/forms.css';
 @import 'components/post.css';
 @import 'components/widgets.css';
 
