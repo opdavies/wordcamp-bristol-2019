@@ -1,3 +1,4 @@
+textarea,
 input[type=search] {
   @apply border p-2;
 
