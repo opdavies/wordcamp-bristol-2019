@@ -11,7 +11,7 @@ a {
 
 a:hover,
 a:focus {
-  @apply text-blue-700
+  @apply text-blue-800
 }
 
 @tailwind components;
