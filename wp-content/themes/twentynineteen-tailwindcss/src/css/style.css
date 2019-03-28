@@ -16,11 +16,9 @@ a:focus {
 
 @tailwind components;
 
-h2 {
-  &:before {
-    content: '';
-    @apply w-12 block border-t-2 border-gray-600 mb-6
-  }
+h2:before {
+  content: '';
+  @apply w-10 block border-t-2 border-gray-600 mb-4
 }
 
 .screen-reader-text {
