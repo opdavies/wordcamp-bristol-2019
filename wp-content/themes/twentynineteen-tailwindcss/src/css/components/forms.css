@@ -3,7 +3,7 @@ input[type=search] {
   @apply border border-gray-400 p-2;
 
   &:focus {
-    @apply outline-none bg-gray-300
+    @apply outline-none bg-gray-100
   }
 
   &::placeholder {
