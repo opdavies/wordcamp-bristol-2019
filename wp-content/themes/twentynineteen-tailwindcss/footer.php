@@ -1,4 +1,6 @@
-    <?php get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
+      <aside class="mt-24">
+        <?php get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
+      </aside>
 
       <footer class="pt-24 pb-16">
         <p class="text-gray-600">
