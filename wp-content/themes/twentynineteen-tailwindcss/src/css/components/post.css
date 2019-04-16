@@ -20,6 +20,10 @@
   @apply flex flex-wrap w-full;
 }
 
+.entry-footer {
+  @apply mt-8;
+}
+
 .byline,
 .posted-on,
 .cat-links,
