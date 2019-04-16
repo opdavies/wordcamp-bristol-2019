@@ -21,7 +21,10 @@
   }
 
   .comment-metadata {
-    @apply text-sm text-gray-900;
+    @apply text-sm text-gray-900 flex;
+  }
+  .comment-metadata > .edit-link-sep {
+    @apply mx-1;
   }
 
   .comment-content {
