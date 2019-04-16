@@ -26,7 +26,7 @@ $discussion = twentynineteen_get_discussion_data();
 
 <div id="comments" class="<?php echo comments_open() ? 'comments-area' : 'comments-area comments-closed'; ?>">
 	<div class="<?php echo $discussion->responses > 0 ? 'comments-title-wrap' : 'comments-title-wrap no-responses'; ?>">
-		<h2 class="comments-title">
+		<h2 class="text-4xl font-bold">
 		<?php
 		if ( comments_open() ) {
 			if ( have_comments() ) {
