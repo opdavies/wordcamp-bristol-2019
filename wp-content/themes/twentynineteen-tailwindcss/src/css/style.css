@@ -26,6 +26,7 @@ h2:before {
 }
 
 @import 'components/avatars.css';
+@import 'components/comment-form.css';
 @import 'components/comment-list.css';
 @import 'components/content.css';
 @import 'components/discussion-avatar-list.css';
