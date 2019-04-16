@@ -24,8 +24,8 @@ if ( post_password_required() ) {
 $discussion = twentynineteen_get_discussion_data();
 ?>
 
-<div id="comments" class="<?php echo comments_open() ? 'comments-area' : 'comments-area comments-closed'; ?>">
-	<div class="<?php echo $discussion->responses > 0 ? 'comments-title-wrap' : 'comments-title-wrap no-responses'; ?>">
+<div id="comments" class="max-w-xl <?php echo comments_open() ? 'comments-area' : 'comments-area comments-closed'; ?>">
+	<div class="lg:flex lg:justify-between lg:items-baseline">
 		<h2 class="text-4xl font-bold">
 		<?php
 		if ( comments_open() ) {

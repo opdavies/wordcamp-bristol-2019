@@ -19,13 +19,13 @@ if ( $has_responses ) {
 }
 ?>
 
-<div class="discussion-meta">
+<div>
 	<?php
 	if ( $has_responses ) {
 		twentynineteen_discussion_avatars_list( $discussion->authors );
 	}
 	?>
-	<p class="flex items-center">
+	<p class="flex items-center text-sm">
 		<?php echo twentynineteen_get_icon_svg( 'comment', 16 ); ?>
 		<span class="ml-2"><?php echo esc_html( $meta_label ); ?></span>
 	</p>

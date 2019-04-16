@@ -25,6 +25,7 @@ h2:before {
   @apply absolute opacity-0 pointer-events-none;
 }
 
+@import 'components/comments.css';
 @import 'components/content.css';
 @import 'components/forms.css';
 @import 'components/post.css';
