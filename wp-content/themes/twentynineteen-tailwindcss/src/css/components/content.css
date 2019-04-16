@@ -1,9 +1,16 @@
 .entry-content {
-  @apply bg-red-500;
   @apply font-serif text-lg leading-loose;
 
   @screen md {
     @apply text-xl;
+  }
+
+  > * {
+    @apply max-w-2xl;
+
+    @screen 2xl {
+      @apply max-w-full;
+    }
   }
 
   h2 {
