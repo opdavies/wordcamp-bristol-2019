@@ -25,8 +25,8 @@ if ( $has_responses ) {
 		twentynineteen_discussion_avatars_list( $discussion->authors );
 	}
 	?>
-	<p class="discussion-meta-info">
-		<?php echo twentynineteen_get_icon_svg( 'comment', 24 ); ?>
-		<span><?php echo esc_html( $meta_label ); ?></span>
+	<p class="flex items-center">
+		<?php echo twentynineteen_get_icon_svg( 'comment', 16 ); ?>
+		<span class="ml-2"><?php echo esc_html( $meta_label ); ?></span>
 	</p>
 </div><!-- .discussion-meta -->
