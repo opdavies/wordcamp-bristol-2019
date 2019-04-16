@@ -1,0 +1,44 @@
+.comment-list .comment,
+.comment-author b.fn {
+  @apply mt-12 pl-24 relative w-full block;
+}
+
+.comment-list {
+  .comment-author .avatar,
+  .comment-author > a.url {
+    @apply absolute top-0 left-0;
+  }
+
+  .comment-author > b.fn {
+    @apply pl-0 text-2xl text-black;
+  }
+  .comment-author > b.fn a {
+    @apply text-inherit;
+  }
+
+  .comment-author img {
+    @apply w-16;
+  }
+
+  .comment-metadata {
+    @apply text-sm text-gray-900;
+  }
+
+  .comment-content {
+    @apply mt-8 text-base;
+  }
+
+  .comment-reply {
+    @apply mt-6 text-sm;
+  }
+}
+
+.post-author-badge {
+  @apply absolute top-0 left-0 ml-10 w-6 h-6;
+  @apply flex items-center;
+  @apply bg-blue-500 rounded-full p-1;
+
+  > svg {
+    @apply fill-current text-white block;
+  }
+}
