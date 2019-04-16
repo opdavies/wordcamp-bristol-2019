@@ -1,7 +1,7 @@
 .widget {
-  @apply text-xl
+  @apply text-xl;
 }
 
 .widget a {
-  @apply text-blue-700 font-bold
+  @apply text-blue-700 font-bold;
 }

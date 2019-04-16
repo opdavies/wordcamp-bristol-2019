@@ -3,11 +3,11 @@ input[type=search] {
   @apply border border-gray-400 p-2 mb-2;
 
   &:focus {
-    @apply outline-none bg-gray-100
+    @apply outline-none bg-gray-100;
   }
 
   &::placeholder {
-    @apply text-black
+    @apply text-black;
   }
 }
 
@@ -17,6 +17,6 @@ input[type=submit] {
 
   &:hover,
   &:focus {
-    @apply bg-blue-800
+    @apply bg-blue-800;
   }
 }

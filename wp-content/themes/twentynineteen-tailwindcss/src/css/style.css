@@ -11,18 +11,18 @@ a {
 
 a:hover,
 a:focus {
-  @apply text-blue-800
+  @apply text-blue-800;
 }
 
 @tailwind components;
 
 h2:before {
   content: '';
-  @apply w-10 block border-t-2 border-gray-600 mb-4
+  @apply w-10 block border-t-2 border-gray-600 mb-4;
 }
 
 .screen-reader-text {
-  @apply absolute opacity-0 pointer-events-none
+  @apply absolute opacity-0 pointer-events-none;
 }
 
 @import 'components/content.css';

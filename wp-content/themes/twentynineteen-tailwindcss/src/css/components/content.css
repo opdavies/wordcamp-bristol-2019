@@ -1,35 +1,36 @@
 .entry-content {
+  @apply bg-red-500;
   @apply font-serif text-lg leading-loose;
 
   @screen md {
-    @apply text-xl
+    @apply text-xl;
   }
 
   h2 {
-    @apply text-2xl font-bold mt-8 -mb-5
+    @apply text-2xl font-bold mt-8 -mb-5;
   }
 
   a {
     @apply text-blue-700 underline;
 
     &:hover {
-      @apply text-blue-800 no-underline
+      @apply text-blue-800 no-underline;
     }
   }
 
   * + * {
-    @apply mt-6
+    @apply mt-6;
   }
 
   p {
-    @apply font-serif
+    @apply font-serif;
   }
 
   ul {
-    @apply list-disc ml-6
+    @apply list-disc ml-6;
   }
 
   li + li {
-    @apply mt-0
+    @apply mt-0;
   }
 }
