@@ -5,7 +5,7 @@
 	</header>
 	<?php endif; ?>
 
-	<div class="mt-12">
+	<div class="markup mt-12">
 		<?php
 		the_content(
 			sprintf(
