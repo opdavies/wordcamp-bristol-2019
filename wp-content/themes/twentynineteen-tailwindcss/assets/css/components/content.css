@@ -8,7 +8,7 @@
   }
 
   > * {
-    @apply max-w-2xl;
+    @apply max-w-xl;
 
     @screen 2xl {
       @apply max-w-full;
