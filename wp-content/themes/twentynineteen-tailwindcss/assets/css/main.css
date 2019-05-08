@@ -31,6 +31,7 @@ h2:before {
 @import 'components/content.css';
 @import 'components/discussion-avatar-list.css';
 @import 'components/forms.css';
+@import 'components/main-menu.css';
 @import 'components/page-title.css';
 @import 'components/post.css';
 @import 'components/widgets.css';
