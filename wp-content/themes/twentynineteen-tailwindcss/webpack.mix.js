@@ -8,6 +8,7 @@ mix.disableNotifications()
   .browserSync({
     proxy: 'wordcamp2019.docksal',
     notify: false,
+    open: false,
     files: [
       '**/*.php',
       'assets/css/**/*.css'
