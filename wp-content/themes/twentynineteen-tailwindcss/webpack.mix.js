@@ -11,6 +11,11 @@ mix.disableNotifications()
     open: false,
     files: [
       '**/*.php',
-      'assets/css/**/*.css'
-    ],
+      {
+        match: 'style.css',
+        fn: function (event, file) {
+          this.reload()
+        }
+      }
+    ]
   })
