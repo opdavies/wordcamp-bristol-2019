@@ -4,6 +4,13 @@ wp_enqueue_style( 'style', get_stylesheet_uri() );
 
 // override the widget styles for sidebar-1
 add_action('after_setup_theme', function () {
+  register_nav_menus(
+      array(
+        'menu-1' => __( 'Primary', 'twentynineteen_tailwindcss' ),
+        'footer' => __( 'Footer Menu', 'twentynineteen_tailwindcss' ),
+        'social' => __( 'Social Links Menu', 'twentynineteen_tailwindcss' ),
+      )
+    );
   remove_action( 'widgets_init', 'twentynineteen_widgets_init' );
 });
 
@@ -19,4 +26,3 @@ add_action('widgets_init', function () {
     )
   );
 });
-

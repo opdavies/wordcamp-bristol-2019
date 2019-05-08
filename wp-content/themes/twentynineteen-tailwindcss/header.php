@@ -8,12 +8,20 @@
   <body class="font-sans bg-white text-gray-900 leading-normal antialiased">
     <div class="max-w-5xl 2xl:max-w-6xl mx-auto px-4">
       <header class="mt-16 mb-24">
-        <p class="text-2xl">
-            <a href="<?php echo esc_url(home_url( '/' )); ?>" class="text-black hover:text-gray-800">
+        <div>
+          <p class="text-2xl">
+            <a href="<?php echo esc_url(home_url( '/' )); ?>" class="text-black hover:text-gray-800 hover:underline_">
               <?php bloginfo('slogan'); ?>
             </a>
-          <span class="font-serif font-thin text-gray-700">
-            &mdash; <?php bloginfo('description'); ?>
-          </span>
-        </p>
+            <span class="font-serif font-thin text-gray-700">
+              &mdash; <?php bloginfo('description'); ?>
+            </span>
+          </p>
+        </div>
+
+        <?php if (has_nav_menu('menu-1')): ?>
+          <nav>
+            <?php wp_nav_menu() ?>
+          </nav>
+        <?php endif; ?>
       </header>
