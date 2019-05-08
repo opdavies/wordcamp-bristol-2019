@@ -19,7 +19,7 @@ add_action('widgets_init', function () {
     array(
       'name' => 'Sidebar',
       'id' => 'sidebar-1',
-      'before_title' => '<h2 class="text-5xl font-bold mt-6 mb-4 tracking-tight">',
+      'before_title' => '<h2 class="text-2xl md:text-5xl font-bold mt-6 mb-4 tracking-tight">',
       'after_title' => '</h2>',
       'before_widget' => '<div class="mt-10 w-full md:w-1/2 px-6 text-2xl">',
       'after_widget' => '</div>',
