@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title><?php echo wp_get_document_title(); ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
   </head>
   <body class="font-sans bg-white text-gray-900 leading-normal antialiased">
