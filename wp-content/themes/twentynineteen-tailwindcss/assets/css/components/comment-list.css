@@ -4,15 +4,14 @@
 }
 
 .comment-list {
-  .comment-author .avatar,
-  .comment-author > a.url {
+  .comment-author .avatar {
     @apply absolute top-0 left-0;
   }
 
-  .comment-author > b.fn {
+  .comment-author b.fn {
     @apply pl-0 text-2xl text-black;
   }
-  .comment-author > b.fn a {
+  .comment-author b.fn a {
     @apply text-inherit;
   }
 
