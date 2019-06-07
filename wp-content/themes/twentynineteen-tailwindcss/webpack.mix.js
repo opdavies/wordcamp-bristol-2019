@@ -1,7 +1,7 @@
 let mix = require('laravel-mix')
 
 mix.disableNotifications()
-  .postCss('assets/css/main.css', 'style.css', [
+  .postCss('assets/css/app.css', 'style.css', [
     require('postcss-import')(),
     require('tailwindcss')(),
     require('postcss-nested')(),
