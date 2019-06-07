@@ -3,27 +3,10 @@ Theme Name: Twenty Nineteen - Tailwind CSS
 Template: twentynineteen
 */
 
-/* Tailwind base styles */
 @import 'tailwindcss/base';
+@import 'custom-base';
 
-/* Custom base styles */
-@import 'base';
-
-/* Tailwind components */
 @import 'tailwindcss/components';
+@import 'custom-components';
 
-/* Custom components */
-@import 'components/avatars';
-@import 'components/comment-form';
-@import 'components/comment-list';
-@import 'components/content';
-@import 'components/discussion-avatar-list';
-@import 'components/forms';
-@import 'components/main-menu';
-@import 'components/page-title';
-@import 'components/post';
-@import 'components/screen-reader-text';
-@import 'components/widgets';
-
-/* Tailwind utilities */
 @import 'tailwindcss/utilities';
