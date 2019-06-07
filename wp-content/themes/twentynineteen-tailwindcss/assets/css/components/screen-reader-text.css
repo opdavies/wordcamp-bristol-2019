@@ -1,0 +1,3 @@
+.screen-reader-text {
+  @apply absolute opacity-0 pointer-events-none;
+}

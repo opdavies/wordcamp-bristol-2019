@@ -3,28 +3,16 @@ Theme Name: Twenty Nineteen - Tailwind CSS
 Template: twentynineteen
 */
 
-@tailwind base;
+/* Tailwind base styles */
+@import 'tailwindcss/base';
 
-a {
-  @apply text-gray-600 no-underline
-}
+/* Custom base styles */
+@import 'base.css';
 
-a:hover,
-a:focus {
-  @apply text-blue-800;
-}
+/* Tailwind components */
+@import 'tailwindcss/components';
 
-@tailwind components;
-
-h2:before {
-  content: '';
-  @apply w-10 block border-t-2 border-gray-600 mb-4;
-}
-
-.screen-reader-text {
-  @apply absolute opacity-0 pointer-events-none;
-}
-
+/* Custom components */
 @import 'components/avatars.css';
 @import 'components/comment-form.css';
 @import 'components/comment-list.css';
@@ -34,6 +22,8 @@ h2:before {
 @import 'components/main-menu.css';
 @import 'components/page-title.css';
 @import 'components/post.css';
+@import 'components/screen-reader-text.css';
 @import 'components/widgets.css';
 
-@tailwind utilities;
+/* Tailwind utilities */
+@import 'tailwindcss/utilities';
