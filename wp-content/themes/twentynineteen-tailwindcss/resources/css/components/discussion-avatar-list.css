@@ -1,15 +1,15 @@
 .discussion-avatar-list {
-    @apply flex;
+  @apply flex
 }
 
 .discussion-avatar-list li {
   @apply mb-1;
 
   &:not(:first-child) {
-    @apply -ml-3;
+    @apply -ml-3
   }
 }
 
 .discussion-avatar-list img {
-    @apply rounded-full w-10;
+  @apply w-10 rounded-full
 }

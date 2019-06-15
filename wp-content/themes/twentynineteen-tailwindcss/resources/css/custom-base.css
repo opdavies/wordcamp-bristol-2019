@@ -4,10 +4,10 @@ a {
 
 a:hover,
 a:focus {
-  @apply text-blue-800;
+  @apply text-blue-800
 }
 
 h2:before {
   content: '';
-  @apply w-10 block border-t-2 border-gray-600 mb-4;
+  @apply w-10 block mb-4 border-t-2 border-gray-600
 }

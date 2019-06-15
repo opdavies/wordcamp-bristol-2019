@@ -1,22 +1,22 @@
 textarea,
 input[type=search] {
-  @apply border border-gray-400 p-2 mb-2;
+  @apply p-2 mb-2 border border-gray-400;
 
   &:focus {
-    @apply outline-none bg-gray-100;
+    @apply outline-none bg-gray-100
   }
 
   &::placeholder {
-    @apply text-black;
+    @apply text-black
   }
 }
 
 input[type=submit] {
-  @apply bg-blue-700 text-white block text-lg font-bold cursor-pointer;
-  @apply py-3 px-6 rounded mt-2;
+  @apply block py-3 px-6 mt-2 rounded;
+  @apply bg-blue-700 text-white text-lg font-bold cursor-pointer;
 
   &:hover,
   &:focus {
-    @apply bg-blue-800;
+    @apply bg-blue-800
   }
 }

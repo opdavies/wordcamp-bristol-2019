@@ -4,42 +4,42 @@
   @apply font-serif text-lg leading-loose;
 
   @screen md {
-    @apply text-xl;
+    @apply text-xl
   }
 
   > * {
     @apply max-w-xl;
 
     @screen 2xl {
-      @apply max-w-full;
+      @apply max-w-full
     }
   }
 
   h2 {
-    @apply text-2xl font-bold mt-8 -mb-5;
+    @apply mt-8 -mb-5 text-2xl font-bold
   }
 
   a {
     @apply text-blue-700 underline;
 
     &:hover {
-      @apply text-blue-800 no-underline;
+      @apply text-blue-800 no-underline
     }
   }
 
   * + * {
-    @apply mt-6;
+    @apply mt-6
   }
 
   p {
-    @apply font-serif;
+    @apply font-serif
   }
 
   ul {
-    @apply list-disc ml-6;
+    @apply ml-6 list-disc
   }
 
   li + li {
-    @apply mt-0;
+    @apply mt-0
   }
 }

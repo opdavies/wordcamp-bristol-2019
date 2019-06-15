@@ -1,8 +1,8 @@
 .entry-title {
-  @apply text-black text-4xl font-bold mt-6 mb-8;
+  @apply mt-6 mb-8 text-black text-4xl font-bold;
 
   @screen md {
-    @apply text-5xl;
+    @apply text-5xl
   }
 }
 
@@ -10,18 +10,18 @@
   @apply text-inherit;
 
   &:hover {
-    @apply text-gray-800 no-underline;
+    @apply text-gray-800 no-underline
   }
 }
 
 .entry-header,
 .entry-meta,
 .entry-footer {
-  @apply flex flex-wrap w-full;
+  @apply w-full flex flex-wrap
 }
 
 .entry-footer {
-  @apply mt-8;
+  @apply mt-8
 }
 
 .byline,
@@ -32,6 +32,6 @@
   @apply flex items-center mr-4 mb-2;
 
   svg {
-    @apply mr-2 fill-current text-gray-600;
+    @apply mr-2 fill-current text-gray-600
   }
 }
