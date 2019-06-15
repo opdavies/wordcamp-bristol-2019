@@ -104,7 +104,7 @@ $discussion = twentynineteen_get_discussion_data();
 			<div>
 				<span class="screen-reader-text"><?php _e( 'Leave a comment', 'twentynineteen' ); ?></span>
 				<?php twentynineteen_comment_form( 'asc' ); ?>
-				<h2 class="text-3xl font-bold mt-10" aria-hidden="true"><?php _e( 'Leave a comment', 'twentynineteen' ); ?></h2>
+				<h2 class="mt-10 text-3xl font-bold" aria-hidden="true"><?php _e( 'Leave a comment', 'twentynineteen' ); ?></h2>
 			</div>
 			<?php
 		endif;

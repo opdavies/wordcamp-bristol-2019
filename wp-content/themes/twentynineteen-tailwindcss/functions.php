@@ -19,9 +19,9 @@ add_action('widgets_init', function () {
     array(
       'name' => 'Sidebar',
       'id' => 'sidebar-1',
-      'before_title' => '<h2 class="text-2xl md:text-5xl font-bold mt-6 mb-4 tracking-tight">',
+      'before_title' => '<h2 class="mt-6 mb-4 text-2xl font-bold tracking-tight md:text-5xl">',
       'after_title' => '</h2>',
-      'before_widget' => '<div class="mt-10 w-full md:w-1/2 px-6 text-2xl">',
+      'before_widget' => '<div class="w-full mt-10 px-6 text-2xl md:w-1/2">',
       'after_widget' => '</div>',
     )
   );
